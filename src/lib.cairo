@@ -1,5 +1,6 @@
 /// @dev Core Library Imports for the Traits outside the Starknet Contract
 use starknet::ContractAddress;
+////comment
 
 /// @dev Trait defining the functions that can be implemented or called by the Starknet Contract
 #[starknet::interface]
@@ -23,7 +24,7 @@ mod Vote {
     const YES: u8 = 1_u8;
     const NO: u8 = 0_u8;
 
-    /// @dev Structure that stores vote counts and voter states
+    /// @dev Structure that stores vote counts and voter states 
     #[storage]
     struct Storage {
         yes_votes: u8,
